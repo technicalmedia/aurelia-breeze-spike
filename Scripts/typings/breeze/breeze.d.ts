@@ -1078,7 +1078,7 @@ declare module breeze.promises {
     }
 }
  
-declare module "breeze"
+declare module "breeze.js"
 {
     export = breeze;
 }

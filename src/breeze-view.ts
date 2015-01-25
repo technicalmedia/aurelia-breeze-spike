@@ -1,3 +1,5 @@
+import breeze = require("breeze-shim");
+
 export class BreezeView {
     constructor() {
         console.log("breeze-view constructed :)");
@@ -11,8 +13,27 @@ export class BreezeView {
         console.log("breeze-view activate :)");
 
         var promise = new Promise((resolve, reject) => {
+            breeze.config.initializeAdapterInstance("dataService", "odata", true);
 
-                resolve();
+            var query = new breeze.EntityQuery()
+                .from("Customer");
+
+            var dataService = new breeze.DataService({
+                serviceName: "http://services.odata.org/V3/Northwind/Northwind.svc",
+                hasServerMetadata: true,
+                useJsonp: false
+            });
+
+            var manager = new breeze.EntityManager({ dataService: dataService });
+
+            var newQuery = query.using(manager);
+
+            newQuery.execute()
+                .then(result => {
+                    alert("query is resolved.");
+                    resolve();
+                })
+                .catch(error => { alert("error in breeze-view.activate: error executing query\r\n" + error); });
         });
 
         return promise;
