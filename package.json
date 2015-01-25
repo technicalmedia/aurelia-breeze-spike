@@ -48,6 +48,7 @@
       "aurelia-bootstrapper": "^0.9.0",
       "aurelia-breeze": "github:jdanyow/aurelia-breeze@master",
       "aurelia-http-client": "^0.4.2",
+      "binding": "github:jdanyow/binding@^0.3.1",
       "bootstrap": "^3.3.1",
       "breeze-client": "npm:breeze-client@^1.5.4",
       "breeze.js": "github:Breeze/breeze.js@^1.5.2",

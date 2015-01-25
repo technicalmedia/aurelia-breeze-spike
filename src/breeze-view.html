@@ -1,0 +1,18 @@
+<template>
+    <section>
+        <h2>Breeze View</h2>
+
+        <div class="demo-section">
+            <div id="listView">
+                <div class="product" repeat.for="item of items">
+                    <img src="http://demos.telerik.com/kendo-ui/content/web/foods/${item.ProductID}.jpg"
+                         alt="${item.ProductName} image"/>
+
+                    <h3>${item.ProductName}</h3>
+
+                    <p>${item.UnitPrice}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

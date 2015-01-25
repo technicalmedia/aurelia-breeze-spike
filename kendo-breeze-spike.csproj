@@ -27,6 +27,7 @@
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\kendo.ui.core.min.js" />
     <Content Include="src\app.html" />
+    <Content Include="src\breeze-view.html" />
     <Content Include="src\au-kendo-test-json.html" />
     <Content Include="src\child-router.html" />
     <Content Include="src\CustomComponents.html" />
@@ -81,6 +82,7 @@
     <TypeScriptCompile Include="Scripts\typings\kendo\kendo.all.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\q\q.d.ts" />
     <TypeScriptCompile Include="src\app.ts" />
+    <TypeScriptCompile Include="src\breeze-view.ts" />
     <TypeScriptCompile Include="src\au-kendo-test-json.ts" />
     <TypeScriptCompile Include="src\breeze-shim.ts" />
     <TypeScriptCompile Include="src\child-router.ts" />
