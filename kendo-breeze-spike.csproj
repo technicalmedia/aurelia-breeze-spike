@@ -79,8 +79,10 @@
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\kendo\k.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\kendo\kendo.all.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\q\q.d.ts" />
     <TypeScriptCompile Include="src\app.ts" />
     <TypeScriptCompile Include="src\au-kendo-test-json.ts" />
+    <TypeScriptCompile Include="src\breeze-shim.ts" />
     <TypeScriptCompile Include="src\child-router.ts" />
     <TypeScriptCompile Include="src\flickr.ts" />
     <TypeScriptCompile Include="src\hello-world.ts" />

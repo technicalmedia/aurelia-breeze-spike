@@ -1078,3 +1078,7 @@ declare module breeze.promises {
     }
 }
  
+declare module "breeze"
+{
+    export = breeze;
+}
