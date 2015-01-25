@@ -15,7 +15,6 @@ System.config({
     "binding": "github:jdanyow/binding@0.3.1",
     "bootstrap": "github:twbs/bootstrap@3.3.2",
     "breeze-client": "npm:breeze-client@1.5.4",
-    "breeze.js": "github:Breeze/breeze.js@1.5.2",
     "font-awesome": "npm:font-awesome@4.2.0",
     "jquery": "github:components/jquery@2.1.3",
     "q": "npm:q@2.0.2",

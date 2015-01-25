@@ -13,13 +13,14 @@ export class BreezeView {
         console.log("breeze-view activate :)");
 
         var promise = new Promise((resolve, reject) => {
-            breeze.config.initializeAdapterInstance("dataService", "odata", true);
+            //breeze.config.initializeAdapterInstance("dataService", "odata", true);
 
             var query = new breeze.EntityQuery()
                 .from("Customer");
 
             var dataService = new breeze.DataService({
                 serviceName: "http://services.odata.org/V3/Northwind/Northwind.svc",
+                adapterName: "odata",
                 hasServerMetadata: true,
                 useJsonp: false
             });
