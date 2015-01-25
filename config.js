@@ -131,7 +131,8 @@ System.config({
       "util": "npm:util@0.10.3"
     },
     "npm:breeze-client@1.5.4": {
-      "process": "github:jspm/nodelibs-process@0.1.0"
+      "Q": "npm:q@2.0.2",
+      "jquery": "npm:jquery@2.1.3"
     },
     "npm:collections@2.0.1": {
       "weak-map": "npm:weak-map@1.0.5"
@@ -141,6 +142,9 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
+    },
+    "npm:jquery@2.1.3": {
+      "process": "github:jspm/nodelibs-process@0.1.0"
     },
     "npm:q@2.0.2": {
       "asap": "npm:asap@1.0.0",
